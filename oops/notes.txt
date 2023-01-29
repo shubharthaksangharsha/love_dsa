@@ -1,0 +1,20 @@
+Object -> Entity -> state/properties and behaviour 
+
+Example: In game(tekken) there's hero 
+hero: 
+properties
+Name(paul)
+Health: 70 
+Level: A 
+behaviour:-
+attack and defense 
+
+Class: User defined datatype 
+Object: Instance of class 
+
+  
+Default Access modifier: Private 
+Size of empty class: 1 bytes 
+
+Accessing Data Properties/Members using Dot Operator: ramesh.health = 50
+

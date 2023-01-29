@@ -1,0 +1,23 @@
+//https://www.codingninjas.com/codestudio/problems/next-smaller-element_1112581
+
+#include<iostream>
+#include<stack>
+#include<vector>
+using namespace std; 
+
+vector<int> nextSmallerElement(vector<int> &arr, int n)
+{
+    stack<int>st; 
+    st.push(-1);
+    vector<int>ans(n);
+    
+    for(int i = n - 1; i >= 0; i--){
+        int curr = arr[i];
+        while(st.top() >= curr){
+            st.pop();
+        } 
+        ans[i] = st.top();
+        st.push(curr);
+    }
+    return ans;
+}
