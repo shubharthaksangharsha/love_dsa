@@ -1,4 +1,7 @@
 //https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1
+#include<bits/stdc++.h>
+#include "link.cpp"
+using namespace std;
 
 class Solution
 {   
