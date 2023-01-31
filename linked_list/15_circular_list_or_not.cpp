@@ -1,4 +1,7 @@
 //https://practice.geeksforgeeks.org/problems/circular-linked-list/1
+#include<bits/stdc++.h>
+#include "link.cpp"
+using namespace std;
 
 bool checkCircular(Node* head){
    if (!head){

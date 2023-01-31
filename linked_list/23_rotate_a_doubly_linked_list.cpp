@@ -1,12 +1,16 @@
 //https://www.codingninjas.com/codestudio/problems/rotate-dll_1115782?topList=love-babbar-dsa-sheet-problems&utm_source=website&utm_medium=affiliate&utm_campaign=450dsatracker&leftPanelTab=0
 
+/*
 #include <bits/stdc++.h> 
-#include<link.cpp>
-/****************************************************
+// #include<link.cpp>
+class Node{
+    public:
+        int data; 
+        Node* prev; 
+        Node* next;
+};
 
-    Following is the class structure of the DLLNode class:
-*****************************************************/
-    class DLLNode {
+class DLLNode {
     public:
 	int data;
 	Node *next;
@@ -50,5 +54,5 @@ DLLNode* rotateDLL(DLLNode* head, int k)
 	temp ->next = NULL;
 	head->prev = NULL;
 	return head;
-
 }
+*/
