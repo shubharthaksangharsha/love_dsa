@@ -198,7 +198,7 @@ vector<int> getMorrisPreorder(Node* root){
 
         }
     }
-    return inorder;
+    return preorder;
 }
 int main(){
     Node* root = NULL;

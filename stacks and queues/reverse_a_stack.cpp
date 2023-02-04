@@ -15,6 +15,7 @@ void insert_at_bottom(stack<int>&st, int num){
     insert_at_bottom(st, num);
     st.push(temp);
 }
+
 void reverseStack(stack<int>&st){
     if (st.empty()){
         return;
@@ -22,11 +23,9 @@ void reverseStack(stack<int>&st){
     int temp = st.top();
     st.pop();
     reverseStack(st);
-
     insert_at_bottom(st, temp);
-   
-
 }
+
 int main(){
     stack<int>st; 
     st.push(1);

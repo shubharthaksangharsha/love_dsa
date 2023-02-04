@@ -59,7 +59,7 @@ int solve(int *arr, int n, int k){
         maxi.push_back(i);
         mini.push_back(i);
     }
-
+ 
     //make sure to consider last window 
     ans += arr[maxi.front()] + arr[mini.front()];
     return ans;

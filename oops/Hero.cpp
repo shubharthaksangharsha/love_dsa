@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cstring>
 using namespace std;
 
 class Hero {
@@ -94,16 +95,6 @@ int Hero::timeToComplete = 5;
 //     // b.timeToComplete = 10 ;
 //     // cout  << a.timeToComplete << endl;
 //     // cout << b.timeToComplete << endl;
-
-
-
-
-
-
-
-
-
-
 
 
 //     // //Static
