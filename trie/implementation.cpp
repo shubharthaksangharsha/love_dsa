@@ -124,8 +124,14 @@ public:
 };
 
 int main(){
-    Trie* t = new Trie();
-    t -> insert("abcd");
-    t -> removeWord("abcd");
-    cout << t -> search("abcd") << endl;
+    Trie trie;
+    trie.insert("abcd");
+    trie.insert("spiderman");
+    trie.insert("shubharthak");
+    trie.removeWord("spiderman");
+    cout << trie.search("spiderman") << endl;
+    // Trie* t;
+    // t = trie;
+    // cout << t -> search("abcd") << endl;
+    
 }

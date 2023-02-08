@@ -16,7 +16,7 @@ int minValue(Node* root) {
     return temp->data;
 }
 // Function to find the maximum element in the given BST.
-int minValue(Node* root) {
+int maxValue(Node* root) {
     if(root == NULL){
         return -1;
     }

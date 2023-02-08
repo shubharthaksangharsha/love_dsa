@@ -38,6 +38,7 @@ int countNodes(Node* root){
     ans = 1 + countNodes(root->left) + countNodes(root->right);
     return ans;
 }
+
 bool isHeap(Node* root){
     int index = 0;
     int totalCount = countNodes(root);
@@ -46,6 +47,7 @@ bool isHeap(Node* root){
     }
     return false;
 }
+
 int main(){
     Node* root = new Node(1, new Node(2), new Node(3));
     cout << isHeap(root) << endl;
