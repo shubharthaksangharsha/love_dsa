@@ -84,7 +84,7 @@ int intersectPoint(Node* head1, Node* head2)
 
     //More consized and best solution 
     if(!head1 || !head2){
-        return NULL;
+        return -1;
     }
     Node* a = head1; 
     Node* b = head2; 

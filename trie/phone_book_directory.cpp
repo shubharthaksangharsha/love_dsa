@@ -64,7 +64,9 @@ public:
         }
     }
 }
+
 vector<vector<string> > getSuggestions(string str){
+
     TrieNode* prev = root; 
     vector<vector<string> >output; 
     string prefix = "";

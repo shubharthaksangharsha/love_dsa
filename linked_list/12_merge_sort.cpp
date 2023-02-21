@@ -15,6 +15,7 @@ class Solution{
         }
         return slow;
     }
+    
     Node* merge(Node* headA, Node* headB){
         if(!headA){
             return headB;
