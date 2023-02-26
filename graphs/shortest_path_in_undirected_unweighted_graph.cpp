@@ -43,5 +43,4 @@ vector<int> shortestPath( vector<pair<int,int>> edges , int n , int m, int s , i
 
 	reverse(ans.begin() , ans.end());
 	return ans;
-	
 }
